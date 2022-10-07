@@ -1,0 +1,92 @@
+body{
+    background: #d6d4d4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    
+    
+}
+main{
+    background: white;
+    width: 450px;
+    margin-top: 15%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.05);
+}
+main{
+    padding-left: 70px;
+    padding-bottom: 30px;
+    padding-right: 25px;
+}
+
+.text{
+    font-size: 10pt;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+.title{
+    font-size: 20pt;  
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-bottom: 0;
+    padding-top: 40px;
+    color: #2e2e2e;
+}
+.form-text{
+    margin-top: 10px;
+}
+
+input.input {
+    width:  400px;
+    height: 50px;
+}
+
+.forgot-password{
+    padding-left: 165px;
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+}
+.rf{
+    margin-bottom: 20px;
+    font-size: 11pt;
+}
+.forgot-password:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+.btn-login{
+    background-color: rgb(34, 34, 34);
+    border-radius: 50px;
+    color: azure;
+    width: 170px;
+    height: 60px;
+    font-size: 15pt;
+    cursor: pointer;
+    opacity: 0.95;
+}
+.eye-icon{
+    position: relative;
+    transform: translate(82%,-150%);
+    cursor: pointer;
+    opacity: 0.7;
+}
+.btn-login:hover{
+    opacity: 1;
+}
+
+.rm:hover{
+    opacity: 1;
+}
+
+.eye-icon:hover{
+    opacity: 1; 
+}
+.input{
+    font-size: 20px;
+    border: 1px solid #b4b3b3;
+    border-radius: 4px;
+    padding-left: 10px;
+}
